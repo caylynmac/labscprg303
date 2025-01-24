@@ -5,7 +5,7 @@ import FruitList from '../components/fruit';
 import Apple from './apple';
 import Orange from './orange';
 import Mango from './mango';
-import FruitList from "..//components//fruit";
+
 
 export default function App() {
     return (
@@ -13,10 +13,9 @@ export default function App() {
             <Text>Welcome to Lab 2!</Text>
             <ButtonTemplate link={"/"} text={"Tabs"} color="green" />
             <FruitList/>
-            <Apple/>
+            {/* <Apple/>
             <Orange/>
-            <Mango/>
-            <FruitList/>
+            <Mango/> */}
         </View>
     )
 }
