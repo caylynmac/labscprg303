@@ -5,6 +5,7 @@ import FruitList from '../components/fruit';
 import Apple from './apple';
 import Orange from './orange';
 import Mango from './mango';
+import FruitList from "..//components//fruit";
 
 export default function App() {
     return (
@@ -15,6 +16,7 @@ export default function App() {
             <Apple/>
             <Orange/>
             <Mango/>
+            <FruitList/>
         </View>
     )
 }
