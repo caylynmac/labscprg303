@@ -5,15 +5,16 @@ const FruitList: React.FC = () => {
     const fruits = ['Apple', 'orange', 'mango'];
 
     return (
-        <View>
+        <View style={{padding: 10, backgroundColor: 'lightgreen', justifyContent: 'center', height: '100%', 
+        alignItems: 'center', flex: 1, flexDirection: 'column', rowGap: 10, }}>
             <Text>Fruit List</Text>
-            <FlatList
+            <FlatList 
         data={[
           {key: fruits[0]},
             {key: fruits[1]},
             {key: fruits[2]},
         ]}
-        renderItem={({item}) => <Text>{item.key}</Text>}
+        renderItem={({item}) => <Text style={{padding: 10,}}>{item.key}</Text>}
       />
         </View>
     );
