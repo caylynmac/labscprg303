@@ -2,20 +2,31 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, TouchableOpacity } from 'react-native';
 import ButtonTemplate from '../components/button_template';
 import FruitList from '../components/fruit';
-import Apple from './apple';
-import Orange from './orange';
-import Mango from './mango';
+import { Link, useRouter } from "expo-router";
 
 
 export default function App() {
     return (
-        <View>
+        <View style={styles.container}>
             <Text>Welcome to Lab 2!</Text>
             <ButtonTemplate link={"/"} text={"Tabs"} color="green" />
-            <FruitList/>
-            {/* <Apple/>
-            <Orange/>
-            <Mango/> */}
+            {/* <FruitList/> */}
+            <Link href={"/lab3"}>
+                <Text style={styles.text}>Go to Lab 3</Text>
+            </Link>
         </View>
     )
 }
+
+const styles = StyleSheet.create({
+    container: {
+      flex: 1,
+      backgroundColor: "#fff",
+      alignItems: "center",
+      justifyContent: "center",
+    },
+    text: {
+      color: "blue",
+      margin: 10,
+    },
+  });
