@@ -15,7 +15,11 @@ export default function App() {
             <FruitList/>
             {/* <Apple/>
             <Orange/>
+<<<<<<< Updated upstream
             <Mango/> */}
+=======
+            <Mango/>
+>>>>>>> Stashed changes
         </View>
     )
 }
