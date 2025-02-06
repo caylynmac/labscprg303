@@ -9,7 +9,7 @@ export default function App() {
     return (
         <View style={styles.container}>
             <Text>Welcome to Lab 2!</Text>
-            <ButtonTemplate link={"/"} text={"Tabs"} color="green" />
+            {/* <ButtonTemplate link={"/"} text={"Tabs"} color="green" /> */}
             {/* <FruitList/> */}
             <Link href={"/lab3"}>
                 <Text style={styles.text}>Go to Lab 3</Text>
