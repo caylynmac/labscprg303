@@ -1,6 +1,7 @@
 import React from "react";
 import { TouchableOpacity, Text, StyleSheet } from "react-native";
 import { useRouter } from "expo-router";
+import { styles } from "../styles.js";
 
 interface ButtonTemplateProps {
   color?: string;
@@ -27,17 +28,5 @@ const ButtonTemplate: React.FC<ButtonTemplateProps> = ({
   );
 };
 
-const styles = StyleSheet.create({
-  button: {
-    padding: 10,
-    borderRadius: 5,
-    alignItems: "center",
-    margin: 10,
-  },
-  buttonText: {
-    color: "#fff",
-    fontSize: 16,
-  },
-});
 
 export default ButtonTemplate;
