@@ -1,5 +1,6 @@
 import {useState} from "react";
 import { Text, StyleSheet, TouchableOpacity, View } from "react-native";
+import { styles } from "../styles";
 
     type CountProps = {
         count: number;
@@ -15,9 +16,11 @@ import { Text, StyleSheet, TouchableOpacity, View } from "react-native";
         };
     
     return (
-        <TouchableOpacity onPress={handleIncrement}>
-            <Text>Increment +</Text>
-        </TouchableOpacity>
+        <View >
+            <TouchableOpacity style={styles.increment} onPress={handleIncrement}>
+                <Text>Increment +</Text>
+            </TouchableOpacity>
+        </View>
     );
 };
 
