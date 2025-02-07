@@ -8,7 +8,7 @@ const Lab3 = () => {
     const [count, setCount] = useState<number>(0);
 
     return (
-        <View>
+        <View >
             <Text>Welcome to Lab 3!</Text>
             <Text>Count: {count}</Text>
             <Increment count={count} setCount={setCount}/>
@@ -16,3 +16,5 @@ const Lab3 = () => {
         </View>
     )
 };
+
+export default Lab3;
