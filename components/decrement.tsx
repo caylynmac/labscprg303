@@ -1,6 +1,6 @@
 import {useState} from "react";
 import { Text, StyleSheet, TouchableOpacity, View } from "react-native";
-import { styles } from "../styles";
+import { styles } from "../styles.js";
 
     type CountProps = {
         count: number;

@@ -1,4 +1,4 @@
-import React from 'react';
+//import React from 'react';
 import { StyleSheet , Text, View, TouchableOpacity, FlatList } from 'react-native';
 
 const FruitList: React.FC = () => {
