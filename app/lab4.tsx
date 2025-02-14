@@ -12,5 +12,4 @@ const Lab4 = () => {
         </View>
     )
 };
-
 export default Lab4;
