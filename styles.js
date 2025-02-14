@@ -35,19 +35,25 @@ export const styles = StyleSheet.create({
       alignItems: "center",
       margin: 10,
     },
-
     title: {
       fontSize: 26,
       margin: 10,
       foneWeight: "bold",
     },
-
     listView: {
       viewDirection: "row",
       justifyContent: "space-between",
       alignItems: "flex-start",
       width: "100%",
       marginalVertival: 8,
+    },
+    locationCard: {
+      backgroundColor: "#fff",
+      borderRadius: 10,
+      borderWidth: 1,
+      padding: 10,
+      margin: 10,
+      width: "100%",
     },
 });
 
