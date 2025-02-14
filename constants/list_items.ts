@@ -8,8 +8,18 @@ export interface VacationDestination {
   
   // Define the array with explicit typing and actual prices in USD
   const vacationDestinations: VacationDestination[] = [
-    { id: 1, location: "Paris", price: 2500, average_yearly_temperature: "15°C" },
-    { id: 2, location: "Tokyo", price: 1800, average_yearly_temperature: "16°C" },
+    { 
+        id: 1, 
+        location: "Paris", 
+        price: 2500, 
+        average_yearly_temperature: "15°C" 
+    },
+    { 
+        id: 2, 
+        location: "Tokyo", 
+        price: 1800, 
+        average_yearly_temperature: "16°C" 
+    },
     {
       id: 3,
       location: "New York City",
@@ -40,9 +50,23 @@ export interface VacationDestination {
       price: 2000,
       average_yearly_temperature: "17°C",
     },
-    { id: 8, location: "Dubai", price: 3000, average_yearly_temperature: "27°C" },
-    { id: 9, location: "Bali", price: 1500, average_yearly_temperature: "28°C" },
-    { id: 10, location: "Rome", price: 2100, average_yearly_temperature: "18°C" },
+    { 
+        id: 8, 
+        location: "Dubai", 
+        price: 3000, 
+        average_yearly_temperature: "27°C" 
+    },
+    { 
+        id: 9, 
+        location: "Bali", 
+        price: 1500, 
+        average_yearly_temperature: "28°C" 
+    },
+    { id: 10, 
+        location: "Rome", 
+        price: 2100, 
+        average_yearly_temperature: "18°C" 
+    },
   ];
   
   export default vacationDestinations;

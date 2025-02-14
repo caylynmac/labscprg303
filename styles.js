@@ -31,5 +31,10 @@ export const styles = StyleSheet.create({
       alignItems: "center",
       margin: 10,
     },
+    title: {
+      fontSize: 20,
+      fontWeight: "bold",
+      margin: 10,
+    },
 });
 
