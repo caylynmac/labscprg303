@@ -37,9 +37,10 @@ export const styles = StyleSheet.create({
     },
 
     title: {
-      fontSize: 26,
+      fontSize: 18,
       margin: 10,
-      foneWeight: "bold",
+      fontWeight: "bold",
+      fontFamily: "Arial",
     },
 
     listView: {
