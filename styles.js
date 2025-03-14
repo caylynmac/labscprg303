@@ -56,5 +56,15 @@ export const styles = StyleSheet.create({
       margin: 10,
       width: "100%",
     },
+
+    taskCard:
+    {
+      flex: 1,
+      flexDirection: "row",
+      padding: 10,
+      margin: 10,
+      width: 200,
+      height: 50,
+    }
 });
 

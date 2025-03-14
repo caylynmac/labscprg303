@@ -20,6 +20,9 @@ export default function App() {
             <Link href={"/lab5"}>
                 <Text style={styles.text}>Go to Lab 5</Text>
             </Link>
+            <Link href={"/lab6"}>
+                <Text style={styles.text}>Go to Lab 6</Text>
+            </Link>
         </View>
     )
 };

@@ -1,5 +1,8 @@
 // import Stack from "expo-router";
 
-// Export default function Layout(){
-//     <Stack/>
+// export default function Layout(){
+//     return (
+//         <View/>
+//         //<Stack/>
+//     );
 // }
